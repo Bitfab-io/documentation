@@ -36,24 +36,32 @@ There are other causes of hotend/extruder jamming different of hotend clogging, 
 
 Hotend substitution and maintenance is performed to assure the printers 
 
-* minimize down time
+* minimize printer down time
 * get the hotend back to work with the minimun time/money spent
 
 ### Tools
 
 * 
 
+### Part replacement
+
+* Always replace PTFE tube (consumable).
+	* PTFE is damaged from exposure to high temperatures (from about 230-250º).
+	* A damaged PTFE liner presents all or some of the following signs:
+		* Sticky, thick texture
+		* "Plastic" smell
+		* Deformation
+		* Leaked filament on the outer surface of the tube.
+	* Removal of the PTFE liner with pliers deforms the tube so it cannot be used again in a production machine.
+* Replace nozzle (consumable) if the hotend is clogged but the PTFE is OK.
+	* If the PTFE tube is not damaged the next most likely cause of clogging is an obstructed nozzle.
+* Replace silicone sock (consumable) if damage may affect hotend reliability or performance.
+* Replace any other part as you see fit if damage may affect hotend reliability or performance.
+
 ### Removing hotend from the machine
 
 1. Remove clogged hotend from the machine.
 2. Install a new hotend in the printer and put aside the clogged hotend indicating that it is clogged.
-
-### Part substitution criteria
-
-* Always replace PTFE tube
-* Replace nozzle if the hotend is clogged but the PTFE is OK
-* Replace sock if damaged.
-* Replace any other part as you see fit if damage may affect hotend reliability or performance.
 
 ### Steps
 
@@ -87,9 +95,6 @@ Hotend substitution and maintenance is performed to assure the printers
 	* Unscrew the nozzle by 1/2 of a turn.
 	* Screw the heasink by hand while holding the nozzle in the position from the previous step.
 	* Tighten the nozzle with the 7mm wrench. Recommended torque is 3Nm (this is about as much pressure as you can apply with one finger on a small spanner). Overtorquing will result in nozzle breaking, undertorquing may result in molten plastic leaking.
-
-
-
 
 
 ### Additional resources
