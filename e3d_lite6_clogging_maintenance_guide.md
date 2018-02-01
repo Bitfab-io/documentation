@@ -1,9 +1,10 @@
 # E3D lite6 clogging maintenance guide
 
-**Clogging**. Clogging is the obstruction of the hotend due to damage to the PTFE liner or buildup of impurities inside the nozzle.
+**Clogging**. Clogging is the obstruction of the hotend due to
 
-Hotend clogging is the most common failure 
-
+* damage to the PTFE liner
+* buildup of impurities inside the nozzle
+* filament plug between the nozzle and the heatsink or PTFE tube (due to improper assembly)
 
 ## Detecting clogging in the hotend
 
@@ -12,10 +13,18 @@ When a hotend starts to clog:
 * Plastic flow coming out of the noozle decreases.
 * More force is needed to push the filament through the nozzle.
 
-Parts printed with a clogged hotend show signs of insufficient plastic flow: weakness, surfaces with small voids, incomplete or weak support, incomplete or weak infill... The flow decreases as the layers grow and sometimes the hotend may be completedly blocked before the print is finished.
+Parts printed with a clogged hotend show signs of insufficient plastic flow: weakness, surfaces with small voids, incomplete or weak support, incomplete or weak infill, falling top layers... The flow decreases as the layers grow and sometimes the hotend may be completedly blocked before the print is finished.
 
 [images of printed parts]
 
+### Free flow hotend test
+
+If the clog is already severe, it can be detected by extruding a given length of filament from the extruder. When the hotend is clogged:
+
+* The extruded filament will be thinner than normal
+* Extruder motor may lose steps
+
+Results from the free flow test will be apparent only when the hotend is already severly clogged.
 
 ## Other causes extrusion jams
 
@@ -100,6 +109,7 @@ Hotend substitution and maintenance is performed to assure the printers
 ### Additional resources
 
 * E3D lite6 documentation: https://e3d-online.dozuki.com/c/LIte6
+* https://www.youtube.com/watch?v=OzRAVkXjw3I
 
 
 
